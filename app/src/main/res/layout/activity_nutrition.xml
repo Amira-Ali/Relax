@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.Nutrition">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/AppBar"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/NutritionTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/NutritionTitle"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/logo"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginVertical="10dp"
+                android:background="@drawable/food"
+                />
+
+            <TextView
+                android:id="@+id/FoodIntro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginBottom="10dp"
+                android:justificationMode="inter_word"
+                android:text="@string/NutritionIntro"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/Oatamel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:text="@string/OtamelTitle"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="10dp">
+                <TextView
+                    android:id="@+id/OatamelText"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@id/oatamelImg"
+                    android:layout_toRightOf="@id/oatamelImg"
+                    android:textSize="14sp"
+                    android:justificationMode="inter_word"/>
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/oatamelImg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/oatmeal" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/ComplexCarbs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:text="@string/ComplexCarbsTitle"
+                android:textSize="16sp"
+                android:textStyle="bold"  />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="10dp"
+                >
+                <TextView
+                    android:id="@+id/ComplexCarbsText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/carbsImg"
+                    android:layout_toRightOf="@+id/carbsImg"
+                    android:textSize="14sp"
+                    android:justificationMode="inter_word"/>
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/carbsImg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/complexcarbs" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/SimpleCarbs"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:text="@string/SimpleCarbsTitle"
+                android:textSize="16sp"
+                android:textStyle="bold"  />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="10dp"
+                >
+                <TextView
+                    android:id="@+id/SimpleCarbsText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/simplecarbsimg"
+                    android:layout_toRightOf="@+id/simplecarbsimg"
+                    android:textSize="14sp"
+                    android:justificationMode="inter_word"/>
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/simplecarbsimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/simplecarbs" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/Oranges"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:text="@string/OrangesTitle"
+                android:textSize="16sp"
+                android:textStyle="bold"  />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="10dp"
+                >
+                <TextView
+                    android:id="@+id/OrangeText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/OrangesImg"
+                    android:layout_toRightOf="@+id/OrangesImg"
+                    android:textSize="14sp"
+                    android:justificationMode="inter_word"/>
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/OrangesImg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/oranges" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/Spinach"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:text="@string/SpinachTitle"
+                android:textSize="16sp"
+                android:textStyle="bold"  />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="10dp"
+                >
+                <TextView
+                    android:id="@+id/SpinachText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/SpinachImg"
+                    android:layout_toRightOf="@+id/SpinachImg"
+                    android:textSize="14sp"
+                    android:justificationMode="inter_word"/>
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/SpinachImg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/spinach" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/FattyFish"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:text="@string/FattyFishTitle"
+                android:textSize="16sp"
+                android:textStyle="bold"  />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="10dp"
+                >
+                <TextView
+                    android:id="@+id/FattyFishText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/FattyFishImg"
+                    android:layout_toRightOf="@+id/FattyFishImg"
+                    android:textSize="14sp"
+                    android:justificationMode="inter_word"/>
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/FattyFishImg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/fish" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/BlackTea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:text="@string/BlackTeaTitle"
+                android:textSize="16sp"
+                android:textStyle="bold"  />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="10dp"
+                >
+                <TextView
+                    android:id="@+id/BlackTeaText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/BlackTeaImg"
+                    android:layout_toRightOf="@+id/BlackTeaImg"
+                    android:textSize="14sp"
+                    android:justificationMode="inter_word"/>
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/BlackTeaImg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/tea" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/Pistachios"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:text="@string/PistachioTitle"
+                android:textSize="16sp"
+                android:textStyle="bold"  />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="10dp"
+                >
+                <TextView
+                    android:id="@+id/PistachiosText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/PistachiosImg"
+                    android:layout_toRightOf="@+id/PistachiosImg"
+                    android:textSize="14sp"
+                    android:justificationMode="inter_word"/>
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/PistachiosImg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/nuts" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/Avocado"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:text="@string/AvocadoTitle"
+                android:textSize="16sp"
+                android:textStyle="bold"  />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="10dp"
+                >
+                <TextView
+                    android:id="@+id/AvocadoText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/AvocadosImg"
+                    android:layout_toRightOf="@+id/AvocadosImg"
+                    android:textSize="14sp"
+                    android:justificationMode="inter_word"/>
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/AvocadosImg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/avocado" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/Almonds"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:text="@string/AlmondTitle"
+                android:textSize="16sp"
+                android:textStyle="bold"  />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="10dp"
+                >
+                <TextView
+                    android:id="@+id/AlmondsText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/AlmondsImg"
+                    android:layout_toRightOf="@+id/AlmondsImg"
+                    android:textSize="14sp"
+                    android:justificationMode="inter_word"/>
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/AlmondsImg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/almonds" />
+            </RelativeLayout>
+            <TextView
+                android:id="@+id/RawVeggies"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:text="@string/RawVeggyTitle"
+                android:textSize="16sp"
+                android:textStyle="bold"  />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="10dp"
+                >
+                <TextView
+                    android:id="@+id/RawVeggiesText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/RawVeggiesImg"
+                    android:layout_toRightOf="@+id/RawVeggiesImg"
+                    android:textSize="14sp"
+                    android:justificationMode="inter_word"/>
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/RawVeggiesImg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/carrot" />
+            </RelativeLayout>
+            <TextView
+                android:id="@+id/BedtimeSnack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:text="@string/BedtimeSnackTitle"
+                android:textSize="16sp"
+                android:textStyle="bold"  />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="10dp"
+                >
+                <TextView
+                    android:id="@+id/BedtimeSnackText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/BedtimeSnackImg"
+                    android:layout_toRightOf="@+id/BedtimeSnackImg"
+                    android:textSize="14sp"
+                    android:justificationMode="inter_word"/>
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/BedtimeSnackImg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/blueberries" />
+            </RelativeLayout>
+            <TextView
+                android:id="@+id/Milk"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:text="@string/MilkTitle"
+                android:textSize="16sp"
+                android:textStyle="bold"  />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="10dp"
+                >
+                <TextView
+                    android:id="@+id/MilkText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/MilkImg"
+                    android:layout_toRightOf="@+id/MilkImg"
+                    android:textSize="14sp"
+                    android:justificationMode="inter_word"/>
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/MilkImg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/milk" />
+            </RelativeLayout>
+            <TextView
+                android:id="@+id/HerbalSupplements"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:text="@string/HerbalSupplementTitle"
+                android:textSize="16sp"
+                android:textStyle="bold"  />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginVertical="10dp"
+                >
+                <TextView
+                    android:id="@+id/StJhonText"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toEndOf="@+id/StjhonImg"
+                    android:layout_toRightOf="@+id/StjhonImg"
+                    android:textSize="14sp"
+                    android:justificationMode="inter_word"/>
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:id="@+id/StjhonImg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/st_johns" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/btn_home"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/btn_custom"
+                android:text="@string/btn_BackTohome"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/AppBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:title="Nutrition" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+</RelativeLayout>

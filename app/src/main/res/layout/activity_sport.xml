@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.Sport">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/AppBar"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/JournalTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginTop="10dp"
+                android:text="@string/SportTitle"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:id="@+id/logo"
+                android:layout_width="350dp"
+                android:layout_height="320dp"
+                android:layout_marginHorizontal="15dp"
+                android:layout_marginVertical="10dp"
+                android:background="@drawable/sport_logo"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/SportIntro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="10dp"
+                android:text="@string/SportIntro"
+                android:textSize="14sp"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:id="@+id/SportTips"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="10dp"
+                android:textSize="14sp"/>
+
+            <TextView
+                android:id="@+id/SportSummary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="20dp"
+                android:layout_marginVertical="10dp"
+                android:text="@string/SportSummary"
+                android:textSize="14sp"
+                android:justificationMode="inter_word"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:text="@string/Stretch"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="350dp"
+                android:layout_height="350dp"
+                android:layout_margin="12dp"
+                android:layout_gravity="center"
+                android:src="@drawable/sport_stretching1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:text="@string/Walking"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="350dp"
+                android:layout_height="350dp"
+                android:layout_margin="12dp"
+                android:layout_gravity="center"
+                android:background="@drawable/sport_walking" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:text="@string/Jogging"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="350dp"
+                android:layout_height="350dp"
+                android:layout_margin="12dp"
+                android:layout_gravity="center"
+                android:background="@drawable/sport_jogging" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:text="@string/Running"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="350dp"
+                android:layout_height="350dp"
+                android:layout_margin="12dp"
+                android:layout_gravity="center"
+                android:background="@drawable/sport_running" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:text="@string/Climb"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="350dp"
+                android:layout_height="350dp"
+                android:layout_margin="12dp"
+                android:layout_gravity="center"
+                android:background="@drawable/sport_climb" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:text="@string/Dance"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="200dp"
+                android:layout_height="350dp"
+                android:layout_margin="12dp"
+                android:layout_gravity="center"
+                android:background="@drawable/sport_dance" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp"
+                android:text="@string/Gardening"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+            <pl.droidsonroids.gif.GifImageView
+                android:layout_width="350dp"
+                android:layout_height="350dp"
+                android:layout_margin="12dp"
+                android:layout_gravity="center"
+                android:background="@drawable/sport_gardening" />
+
+            <Button
+                android:id="@+id/btn_home"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/btn_custom"
+                android:text="@string/btn_BackTohome"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/AppBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            app:title="Exercises" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+</RelativeLayout>

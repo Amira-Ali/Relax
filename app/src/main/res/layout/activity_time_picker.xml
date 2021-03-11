@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.TimePicker">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/relaxlogo"
+        android:id="@+id/logo"/>
+
+    <TextView
+        android:id="@+id/Time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/Button_TimePicker"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:text="@string/selected_time"
+        android:textSize="16sp"
+        android:paddingHorizontal="20dp"/>
+
+    <Button
+        android:id="@+id/Button_TimePicker"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="@string/open_time_picker"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/btn_custom"
+        android:textColor="@color/md_white_1000"
+        android:padding="12dp"
+        />
+
+    <Button
+        android:id="@+id/button_cancel"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Button_TimePicker"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/btn_custom"
+        android:textColor="@color/md_white_1000"
+        android:text="@string/stop_notification"
+        android:padding="12dp"/>
+
+</RelativeLayout>

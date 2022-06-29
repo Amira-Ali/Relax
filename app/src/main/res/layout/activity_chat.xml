@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.chatPage"
+    android:background="@color/md_white_1000">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        tools:ignore="MissingConstraints" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/chat_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/background_light"
+        android:scrollbars="vertical"
+        android:layout_marginBottom="50dp" />
+
+    <com.relax.ui.chatFiles.typeWriter
+        android:id="@+id/isTyping"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toTopOf="@+id/hLine"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginStart="10dp"
+        android:visibility="visible"
+        android:textStyle="italic"
+        android:textColor="@color/md_grey_800" />
+
+    <!-- A horizontal line between the chat layout and RecyclerView -->
+    <View
+        android:id="@+id/hLine"
+        android:layout_width="0dp"
+        android:layout_height="2dp"
+        android:layout_margin="0dp"
+        android:background="#dfdfdf"
+        app:layout_constraintBottom_toTopOf="@+id/layoutChatBox"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/layoutChatBox"
+        android:layout_width="0dp"
+        android:layout_height="44dp"
+        android:layout_margin="6dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+       >
+
+        <EditText
+            android:id="@+id/userInput"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:autofillHints="@string/type_here"
+            android:background="@android:color/transparent"
+            android:hint="@string/type_here"
+            android:inputType="text"
+            android:maxLines="6"
+            android:paddingStart="6dp"
+            android:paddingEnd="6dp" />
+
+        <Button
+            android:id="@+id/btnSendMsg"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:background="@drawable/ic_send_24"
+            style="?android:attr/borderlessButtonStyle"
+            android:clickable="true"
+            android:onClick="sendBtnClick"/>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

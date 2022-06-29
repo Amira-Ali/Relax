@@ -1,0 +1,419 @@
+<resources>
+    <string name="app_name">Relax</string>
+    <string name="time">Notifications</string>
+    <string name="swipe_left_for_register">Swipe left to register</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="tag">Feeling down? Dive in!</string>
+    <string name="swipe_right_for_login">Swipe right to login</string>
+    <string name="register">Register</string>
+    <string name="your_name">Name</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_home">Home</string>
+    <string name="title_myJourney">My journey</string>
+    <string name="share_note">Share note</string>
+    <string name="delete_notes">Delete notes</string>
+    <string name="no_notes">Nothing here!</string>
+    <string name="Physical_Section">Physical signs: How often would you say </string>
+    <string name="Sleep_Section">Sleep signs: How often would you say </string>
+    <string name="BEHAVIORAL_Section">Behavioral signs: How often do you say </string>
+    <string name="Emotional_Section">Emotional signs: How often would you say </string>
+    <string name="back_home"> Home</string>
+    <string name="back_chat"> Chat</string>
+    <string name="Result_txt">Based on your answers, you need to focus on the following
+        factors to lessen the stress caused by them:</string>
+    <string name="Result_Replacement">Based on your answers, You are absolutely great and you
+        don\'t have any reasons to be stressed over, however you are always welcome to chat with me
+        whenever you feel like! </string>
+    <string name="next">Next</string>
+    <!-- Strings used for com.example.god.fragments for navigation -->
+    <string name="rb1">1</string>
+    <string name="rb2">2</string>
+    <string name="rb3">3</string>
+    <string name="rb4">4</string>
+    <string name="rb5">5</string>
+    <string name="SurveyMocker">Take a survey and build your stress control plan.</string>
+    <string name="recommendations">Recommendations</string>
+    <string name="title_activity_journaling">Journaling</string>
+    <string name="JournalIntro">Journaling is to write in detail about feelings and thoughts related to stressful events. It works best when done consistently, but even occasional journaling is a powerful relieving stress tool.</string>
+
+    <string name="JournalHealthItem1">Journaling decreases the symptoms of asthma, arthritis, and other health conditions.\n</string>
+    <string name="JournalHealthItem2">It improves cognitive functioning.\n</string>
+    <string name="JournalHealthItem3">It can strengthen immune system response.\n</string>
+    <string name="JournalHealthItem4">It can counteract many of the negative effects of stress.\n</string>
+    <string name="JournalDrawBackTitle">Drawbacks</string>
+    <string name="JournalDrawBack1">Those with learning disabilities may find it difficult to deal with the act of writing itself.\n</string>
+    <string name="JournalDrawBack2">Perfectionists may be so concerned with the readability of their work, their handwriting that they can’t focus on the thoughts and emotions they’re trying to access.
+Others may be reluctant to relive negative experiences.\n</string>
+    <string name="JournalDrawBack3">Journaling only about your negative feelings without incorporating thoughts or plans may actually cause more stress.\n
+        A simple way to prevent this is to be sure you end your journaling sessions with a few words about potential solutions to your problems, things you appreciate in your life, or things that give you hope in life.
+    </string>
+
+    <string name="JournalBenefitTitle">Benefits</string>
+    <string name="JournalTitle">What is journaling?</string>
+    <string name="btnBackHome">Go back</string>
+    <string name="SleepTitle">Sleep like a baby!</string>
+    <string name="SleepIntro">It may seem to you like a dreamy tale to sleep like a baby, but if
+        you try the following suggestions, it actually can help you tremendously to make the dream come true!</string>
+    <string name="SleepSuggest1">only sleep at night when you’re tired.\n</string>
+    <string name="SleepSuggest2">do not read or watch TV in bed.\n</string>
+    <string name="SleepSuggest3">do not use your phone, tablet, or computer in bed.\n</string>
+    <string name="SleepSuggest4">do not toss and turn in your bed if you can’t sleep; get up and go to another room
+        until you feel sleepy.\n</string>
+    <string name="SleepSuggest5">avoid caffeine, large meals, and nicotine before bedtime.\n</string>
+    <string name="SleepSuggest6">keep your room dark and cool.\n</string>
+    <string name="SleepSuggest7">write down your worries before going to bed.\n</string>
+    <string name="SleepSuggest8">go to sleep at the same time each night.\n</string>
+    <string name="SleepSuggest9">listen to Quran in a low volume with your favorite recitation.\n</string>
+
+    <string name="ChangeTitle">Changes…Are they good or bad for us?</string>
+    <string name="ChangeIntro">Change can be good or bad. It depends on the person and the situation.
+        For example,  A promotion is good, right? But if you’re unsure of your skills, you may
+        view it as negative.\nGood or bad, change requires an adjustment of some kind. This takes
+        energy. And if the demands are too great, it can drain you and create stress.\nUnmanaged stress can cause physical and emotional problems.\nYou may not be able to
+        control the change itself.\nSo, the key to coping with change is to get control of your response to it as much as possible.</string>
+    <string name="ChangeStressTitle">Change-related stress symptoms:</string>
+    <string name="ChangeStressItems">
+        <li>Headaches</li>\n
+        <li>Insomnia</li>\n
+        <li>Digestive problems</li>\n
+        <li>Muscle tension and backaches</li>\n
+        <li>High blood pressure/heart problems</li>\n
+        <li>Depression or anxiety</li>\n
+        <li>Irritability</li>\n
+        <li>Eating too much or too little</li>\n
+         <li>Alcohol or drug abuse</li>
+    </string>
+    <string name="ChangeTipsTitle">Tips to deal with change:</string>
+    <string name="ChangeTips1">
+        <b>Change is stressful, even when it’s positive.</b> But no change at all can be boring.
+            Strive for balance.
+            Too much stress all at once can be unhealthy. Same, too, if it goes on over a long period of time.
+            People who experience a lot of changes in a brief time period are more likely to have
+            an accident or illness.\n</string>
+    <string name="ChangeTips2"><b>Try to think of change as a mixture of uncertainty and
+        opportunity.</b> Ask yourself what lesson you might learn. What skills you might develop?
+        How
+        might you become stronger as a result of this change?\n</string>
+    <string name="ChangeTips3"><b>During times of change, you need to take care of yourself.</b> Get
+        regular exercise. Eat a balanced diet. Get enough sleep.\n</string>
+    <string name="ChangeTips4"><b>Schedule planned changes so they don’t happen at once:</b> Are you
+        getting married, buying a new house? You may want to hold off on job hunting until you’ve
+        had time to deal with these other changes.\n</string>
+    <string name="ChangeTips5"><b>If faced with a sudden change, take time to think about your
+        emotions.</b> Are you
+             happy, sad, scared, angry, excited? After you know what you’re feeling, ask yourself
+             these questions:\n
+        <b>-</b> Is my reaction justified?\n
+           <b>-</b> Is the level of my reaction justified by the facts?\n
+           <b>-</b> Am I overreacting?\n
+           <b>-</b> Am I misinterpreting?\n
+           <b>-</b> Is there another way to look at this? Is there an opportunity here?\n
+           <b>-</b> Are there parts of this change that I can control?\n</string>
+    <string name="ChangeTips6"><b>Evaluate your life every few months or so.</b> How many changes you
+        are going through? Being aware will make it easier for you to understand and deal with
+        the stress that may come with change.\n</string>
+    <string name="ChangeTips7"><b>Learn to enjoy change.</b> When you have a positive outlook about
+    change,
+    it makes it easier to handle when it occurs. Don’t think about change in a negative way and
+    add stress. Look at change as a way of keeping your life fresh and exciting.\n</string>
+    <string name="ChangeTips8"><b>Talk about it.</b> Don’t keep feelings of sadness and stress
+        bottled-up inside. Talk to someone you trust and feel comfortable with. Talking about
+        what you’re going through can help.\n</string>
+    <string name="NutritionTitle">Let your food be your medicine!</string>
+    <string name="NutritionIntro">There are many strategies we use to handle the stress, and one of
+        them includes what you eat.</string>
+    <string name="OtamelTitle">Comfort foods</string>
+    <string name="OtamelString">A bowl
+        of warm oatmeal, boost levels of serotonin, a calming brain chemical.\nOther foods can
+        cut levels of cortisol and adrenaline, stress hormones that take a toll on the body over time. A healthy diet can help counter the impact of stress by shoring up the immune system and lowering blood pressure.</string>
+    <string name="ComplexCarbsTitle">Complex carbs</string>
+    <string name="ComplexCarbsString">All carbs prompt the brain to make more serotonin. For a steady supply
+        of this feel-good chemical, it\'s best to eat complex carbs, which take longer to
+        digest.\nGood choices include whole-grain breads, pastas, and breakfast cereals,
+        including old-fashioned oatmeal. Complex carbs can also help you feel balanced by stabilizing blood sugar levels.</string>
+
+    <string name="SimpleCarbsTitle">Simple carbs</string>
+    <string name="SimpleCarbsString">Nutrition professionals usually recommend steering clear of simple carbs,
+        which include sweets and soda. But in a pinch, these foods can hit the spot.\nThey\'re
+        digested quickly, leading to a spike in serotonin. Still, it does not last long, and
+        simple carbs can also spike blood sugar, There are better options.
+        So don\'t make these a stress-relieving habit; you should limit them.</string>
+
+    <string name="OrangesTitle">Oranges</string>
+    <string name="OrangeString">Oranges make the list for their wealth of vitamin C. Studies
+        suggest this vitamin can suppress levels of stress hormones.\nIn one study of people
+        with
+        high blood pressure, blood pressure and levels of
+        cortisol (a stress hormone) returned to normal more quickly when people took vitamin C before a stressful task.</string>
+    <string name="SpinachTitle">Spinach</string>
+    <string name="SpinachString">Too little magnesium may trigger headaches and fatigue,
+        doubling the stress\' effects. A cup of spinach helps you stock back up on
+        magnesium.\nDon\'t like spinach? Other green, leafy vegetables are good magnesium
+        sources. Or try some cooked soybeans or a fillet of salmon, also high in magnesium
+        .</string>
+    <string name="FattyFishTitle">Fatty fish</string>
+    <string name="FattyFishString">Be friends with naturally fatty
+        fish. Omega-3 fatty acids, found in fish such as salmon and tuna, can prevent surges in
+        stress hormones.\nThey also may help protect against heart disease and depression. For a
+        healthy supply of feel-good omega-3s, aim to eat at least 3.5
+        ounces of fatty fish at least twice a week.</string>
+    <string name="BlackTeaTitle">Black tea</string>
+    <string name="BlackTeaString">A cup of tea lessen may your stress levels. A study compared
+        people who drank 4 cups of tea daily for 6 weeks with
+        people who drank another drink.\nThe tea drinkers reported feeling calmer and had
+        lower levels of the stress hormone cortisol after stressful situations.</string>
+    <string name="PistachioTitle">Pistachios</string>
+    <string name="PistachioString">Eating a handful of pistachios, walnuts, or almonds every day
+        helps lower your cholesterol, ease inflammation in your heart\'s arteries.\nIt can
+        also make diabetes less likely, and protect you against the effects of stress. Don\'t
+        overdo it, though: Nuts are rich in calories.</string>
+    <string name="AvocadoTitle">Avocados</string>
+    <string name="AvocadoString">One of the best ways to reduce high blood pressure is to get
+        enough potassium, and half an avocado has more potassium than a medium-sized banana.\nA
+        little bit of guacamole, made from avocado, might be a good choice when stress has you craving a high-fat treat. Avocados are high in fat and calories, though, so watch your portion size.</string>
+    <string name="AlmondTitle">Almonds</string>
+    <string name="AlmondString">Almonds are full of helpful vitamins: Vit E to boost
+        the immune system, plus B vitamins, which may make you more resilient during bouts of
+        stress.\nTo get the benefits, snack on a quarter of a cup every day
+        .</string>
+    <string name="RawVeggyTitle">Raw veggies</string>
+    <string name="RawVeggyString">Crunchy raw vegetables can help ease stress in a purely
+        mechanical way. Chewing carrot sticks helps release a clenched jaw, and that can
+        ward off tension.</string>
+    <string name="BedtimeSnackTitle">Bedtime snack</string>
+    <string name="BedtimeSnackString">Carbs at bedtime speeds the release of serotonin and help
+        you sleep better. Since heavy meals before bed can trigger
+        heartburn, stick to light ones.</string>
+    <string name="MilkTitle">Milk</string>
+    <string name="MilkString">Another bedtime stress buster is the time-honored glass of warm
+        milk. Research shows that calcium eases anxiety and mood swings.\nDietitians typically recommend skim or low-fat milk.</string>
+    <string name="HerbalSupplementTitle">Herbal supplements</string>
+    <string name="StJhonString">One of the best studied herbal supplements is St. John\'s wort,
+        which has shown benefits over years for people with mild to
+        moderate depression.\nAlthough more research is needed, the herb also appears to reduce
+        symptoms of anxiety. There is less data on valerian root, another herb said to have a calming effect.
+        Tell your doctor about any supplements you take, so they can check on any possible interactions.</string>
+    <string name="SelfTitle">What is self-esteem?</string>
+    <string name="SelfIntro">Self-esteem is the opinion we have of ourselves. Everyone has times when they feel a bit low or find it hard to believe in themselves. However, if this becomes a long-term situation, this can lead to problems, including mental health issues such as depression or anxiety.</string>
+    <string name="SelfCause">What causes low self-esteem?</string>
+    <string name="SelfCauseString">Low self-esteem often begins in childhood. Our
+        teachers, friends, siblings and parents send us positive and negative
+        messages about ourselves. For some reason, the msg that you are not good
+        enough is the one that stays with you.\nPersonality also play a part. Some people are more prone to negative thinking, while others set impossibly high standards for themselves.</string>
+    <string name="SelfImproveTitle">Improving your self-esteem</string>
+    <string name="SelfImproveTip1"><b>Identify and Challenge Your Negative Beliefs:</b>\nYou may
+        tell yourself you\'re <b>\"too stupid\"</b> to apply for a new job, for example, or that
+        <b>\"nobody cares\"</b> about you. Start to note these negative thoughts and write them on a
+        piece of paper or in a diary. Ask yourself when you first started to think these thoughts.
+        Next, start to write some evidence that challenges these negative beliefs, such as,
+        <b>\"I\'m really good at cryptic crosswords\"</b> or <b>\"My sister calls for a chat every
+            week\"</b>
+        .\n\n</string>
+    <string name="SelfImproveTip2"><b>Identify the positive about yourself:</b>
+        It is also a good idea to write down positive things about yourself, such as being good at a sport, or nice things that people have said about you. When you start to feel low, look back at these things, and remind yourself that there is plenty of good about you.
+Recognise what you\'re good at We\'re all good at something, whether it\'s cooking, singing, doing
+        puzzles or being a friend. We also tend to enjoy doing the things we\'re good at, which
+        can help boost your mood.\n\n</string>
+    <string name="SelfImproveTip3"><b>Build positive relationships:</b>
+If you find certain people tend to bring you down, try to spend less time with them, or tell them how you feel about their words or actions.
+Try to build relationships with people who are positive and who appreciate you.\n\n</string>
+    <string name="SelfImproveTip4"><b>Be kind to yourself:</b>
+Be gentle to yourself when you feel like being self-critical. Think what you\'d say to a friend
+        in a similar situation. We often give far better advice to others than we do to ourselves.\n\n</string>
+    <string name="SelfImproveTip5"><b>Learn to be firm</b>
+Being firm is about respecting other people\'s opinions and needs, and expecting the same from them.
+One trick is to look at other people who act firmly and copy what they do.\n\n</string>
+    <string name="SelfImproveTip6"><b>Start saying "no":</b>
+People with low self-esteem often feel they have to say yes to other people, even when they do not really want to.
+The risk is that you become overburdened, resentful and depressed.\n\n</string>
+    <string name="SelfImproveTip7"><b>Give yourself a challenge:</b>
+We all feel nervous to do things some times. But people with healthy self-esteem do not let this feeling stop them trying new things or taking on challenges.
+Set yourself a goal, such as joining an exercise class or going to a social occasion. Achieving your goals will help to increase your self-esteem.\n</string>
+    <string name="SpiritualTitle">Talk to Allah!</string>
+    <string name="SpiritualIntro">It is the mercy of Allah that He does not demand results. He is
+        happy if He finds us making our best sincere effort.\nLife is never a bed of roses. We
+        suffer from heartbreak, pain, and calamity, any of which might drive us to
+        depression.\nHowever, at times depression can be there for no specific reason at
+        all, and when this happens it is imperative that we seek help for it.\nAllah (swt) says:
+        "Take one step towards me, I will take ten steps towards you. Walk towards me, I will run towards you." <b>[Hadith Qudsi]</b>
+        \nDumping all your problems and worries onto the pages of a diary is a renowned
+        stress-reliever. But sharing them with Allah is way better.\nComplain to Him about
+        every bad thing that’s happened to upset you, and ask Him for help.\nApart from feeling
+        relieved, you have just increased your account of good deeds, and can now rest assured
+        that the Lord of the worlds will definitely help you.\nReciting some verses has the added
+        benefits of rapidly increasing your stock of good deeds, and beautifying your voice in
+        recitation further uplifts the heart.\nHere are some selected verses from the Quran to
+        relieve stress:</string>
+    <string name="Duha">Surah Ad-Duha</string>
+    <string name="Inshirah">Surah Al-Inshirah</string>
+    <string name="Fatiha">Surah Al-Fatiha</string>
+    <string name="Baqara">Surah Al-Baqarah (1)</string>
+    <string name="Baqara1">Surah Al-Baqarah (2)</string>
+    <string name="Baqara2">Surah Al-Baqarah (3)</string>
+    <string name="Imran">Surah Al Imran</string>
+    <string name="Hud">Surah Hud</string>
+    <string name="Yusuf">Surah Yusuf</string>
+    <string name="Isra">Surah Al-Isra</string>
+    <string name="Taha">Surah Ṭā ḥā</string>
+    <string name="Anbia1">Surah Al-Anbiya (1)</string>
+    <string name="Anbia2">Surah Al-Anbiya (2)</string>
+    <string name="Naml">Surah An-Naml</string>
+    <string name="Fater">Surah Fatir</string>
+    <string name="Gafer">Surah Ghafir</string>
+    <string name="Falaq">Surah Al-Falaq</string>
+    <string name="Nas">Surah Al-Nas</string>
+    <string name="Sunnah">Stress and anxiety relievers according to the Sunnah:</string>
+    <string name="SunnahText">The Prophet (SAW) was the best of mankind and has taught us
+        everything that we need to know about our life he even taught us how to deal with stress.
+Applying our profet\'s advices to release stress has the added reward of following the
+        Sunnah:</string>
+    <string name="DuaTitle">Dua:</string>
+    <string name="DuaText">Following list of duas are very beneficial in the times of stress, worry, grief, negativity and anxiety:</string>
+    <string name="Hadith1">Hadith (1)</string>
+    <string name="Hadith2">Hadith (2)</string>
+    <string name="Hadith3">Hadith (3)</string>
+    <string name="Hadith4">Hadith (4)</string>
+    <string name="Hadith5">Hadith (5)</string>
+    <string name="PerfumeTitle">Use perfume:</string>
+    <string name="PerfumeText">Aromatherapy has become quite a popular remedy to relieving stress,  Just smelling some ‘itr also relieves stress. And if you apply some new perfume every time stress gets at you, you’re spreading relief through the air to reach others around you too!</string>
+    <string name="SmileTitle">Smile:</string>
+    <string name="SmileText">Research done on the physiological effects of smiling shows that
+        even holding a chopstick horizontally with your lips helps you deal with stress. <b>(Grin
+        and Bear It: The Influence of Manipulated Facial Expression on the Stress
+            Response,September 2012, Tara Kraft and Sarah Pressman)</b></string>
+    <string name="WuduTitle">Do Wudu:</string>
+    <string name="WuduText">Apart from being a spiritual cleanser, a well-performed wudu also has two of the most famous relaxation techniques– water-therapy and mindfulness. Feel the cool liquid running over your skin. Sense your heart being cleansed from sins with every falling drop. A mindful wudu will leave you clean and refreshed– physically, mentally and spiritually.</string>
+    <string name="ForgiveTitle">Forgive:</string>
+    <string name="ForgiveText">It takes about a second to say, <b>"I forgive you"</b> Nurturing hurt
+        feelings is one of the surest ways of getting your adrenaline-taps turned on.\nTake a
+        minute to remind yourself of the huge benefits of forgiving. Remember the following
+        statement of Umar (ra): "There is no better punishment for one who has disobeyed Allah with regard to you, than your obeying Allah with regard to him." <b>(ibn Kathir)</b>
+    </string>
+    <string name="SportIntro">Exercise in almost any form can act as a stress reliever. Being
+        active can boost your feel-good hormones like endorphins which can help you to feel less
+        stressed. Stress can also make you subconsciously tense your muscles, which exercise might help to release.\nA successful exercise program begins with a few simple steps:</string>
+    <string name="SportTitle">The toughest opponent is yourself!</string>
+    <string name="SportTip1"><b>Consult with your doctor;</b> If you have health concerns, you
+        may want to talk to a specialized doctor before starting a new exercise routine.\n</string>
+    <string name="SportTip2"><b>Walk before you run;</b> Build up your fitness level gradually.
+        Excitement about a new program can lead to overdoing it and possibly even injury.\n</string>
+    <string name="SportTip3"><b>Do what you love;</b> walking, stair climbing, jogging, dancing,
+        bicycling, gardening, weightlifting and swimming.\n</string>
+    <string name="SportTip4"><b>Find a friend;</b> Working out with a friend or family member
+        brings a new level of motivation and commitment to your workouts. And friends can make
+        exercising more fun!\n</string>
+    <string name="SportTip5"><b>Exercise in short courses;</b> Even brief bouts of physical
+        activity offer benefits. For instance, if you can\'t fit in one 30-minute walk, try a few
+        10-minute walks instead.</string>
+    <string name="SportSummary">It doesn\'t have to be a full workout; walk around the block, do
+        20 jumping jacks or go for a quick run. You can find many workouts over the internet,
+        <b>\"YouTube\"</b> for an instance is a great source to check and follow exercises
+        according to your liking and ability.\nHere are some exercises you can easily perform even
+        at home alone or with a company:</string>
+    <string name="Stretch">Stretching:</string>
+    <string name="Walking">Walking:</string>
+    <string name="Jogging">Jogging:</string>
+    <string name="Running">Running:</string>
+    <string name="Climb">Stair climbing:</string>
+    <string name="Dance">Dancing:</string>
+    <string name="Gardening">Gardening:</string>
+    <string name="BreathTitle">It\'s just a bad day, not a bad life!</string>
+    <string name="BreathIntro">Deep breathing is one of the best ways to lower stress in the body. This is because when you breathe deeply, it sends a message to your brain to calm down and relax. The brain then sends this message to your body. Those things that happen when you are stressed, such as increased heart rate, fast breathing, and high blood pressure, all decrease as you breathe deeply to relax.</string>
+    <string name="Exercise1">Exercise #1</string>
+    <string name="Exercise2">Exercise #2</string>
+    <string name="Exercise3">Exercise #3</string>
+    <string name="Exercise4">Exercise #4</string>
+    <string name="NoRecommend">No recommendation
+        for now..\n\nYou may like to take the survey and see how you are doing!</string>
+    <string name="help">Call for help</string>
+    <string name="note_hint">Type your thoughts here…</string>
+    <string name="save">Save</string>
+
+    <string name="robot">robot</string>
+    <string name="type_here">Type here…</string>
+    <string name="todo">TODO</string>
+    <string name="logo">logo</string>
+    <string name="_0">0</string>
+    <string name="open_time_picker">Set time</string>
+    <string name="stop_notification">Stop notification</string>
+    <string name="feedback">Feedback</string>
+    <string name="feedback_description">Describe your experience (optional)</string>
+    <string name="update">Update app</string>
+    <string name="selected_time">No notification time has been set yet!</string>
+    <string name="send_feedback">Send my feedback</string>
+    <string name="rate"><![CDATA[Rate & review]]></string>
+    <string name="Offer_Survey_New">
+        Would you mind answering a quick survey (2 min) or would you prefer to chat?
+    </string>
+    <string name="Offer_New_Proceed">
+        You like to start a new chat or pick up where we left off?
+    </string>
+
+    <string name="NotificationCancelled">Notification cancelled!</string>
+    <string name="scale">scale point</string>
+    <string name="logout">Logout</string>
+    <string name="imageMsg">ImageMsg</string>
+    <string name="isTyping"><b><i>Lito is typing...</i></b></string>
+    <string name="change_can_cause_all_sorts_of_stress_related_symptoms_such_as">Change can cause all sorts of stress-related symptoms, such as:</string>
+    <!-- Strings related to login -->
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="bye">bye-bye</string>
+    <string name="thoughts">My thoughts</string>
+    <string name="date_of_survey">Survey was taken on</string>
+    <string name="my_weaknesses">My weaknesses</string>
+    <string name="my_strength">My strengths</string>
+    <string name="myLogins">My sessions over the year</string>
+    <string name="statistic">Statistics</string>
+    <string name="session_nm">Number of sessions</string>
+    <string name="spent_times">Total spent time</string>
+    <string name="last_session">Last session</string>
+    <string name="last_session_date">Date</string>
+    <string name="last_session_duration">Duration</string>
+    <string name="journaling_nm">Total journaling sessions</string>
+    <string name="resentment_list">My resentment list</string>
+    <string name="gratitude_list">My gratitude list</string>
+    <string name="notificationTimes">Selected Notification Time</string>
+    <string name="userRate">My Rate for the app</string>
+    <string name="userFeedback">My feedback to the app\'s author</string>
+    <string-array name="Physical_Questions">
+        <item>My body feels tense all over</item>
+        <item>I have severe or chronic lower back pain</item>
+        <item>I get severe or chronic headaches</item>
+        <item>I get skin rashes or itching</item>
+        <item>Compared to most people, I have a very small or a very large appetite</item>
+        <item>I lack physical energy </item>
+    </string-array>
+    <string-array name="Sleep_Questions">
+        <item>I have trouble falling asleep</item>
+        <item>I take pills to get to sleep</item>
+        <item>I have nightmares or repeated bad dreams</item>
+        <item>I wake up at least once in the middle of the night for no apparent reason</item>
+        <item>No matter how much sleep I get, I awake feeling tired</item>
+    </string-array>
+    <string-array name="Behavioral_Questions">
+        <item>I stutter or get tongue tied when I talk to other people</item>
+        <item>I go to work even when I feel sick</item>
+        <item>After dinner I spend more time alone or watching TV than I do talking with my family or friends</item>
+        <item>I arrive at work late</item>
+        <item>At least once during the week I have a shouting match with a co-worker or supervisor</item>
+        <item>I spend less than 30 minutes a week talking casually with my neighbors</item>
+        <item>I lack time to read the daily newspaper</item>
+        <item>I watch television for entertainment more than one hour a day</item>
+        <item>I drive in a car faster than the speed limit for the excitement and challenge of it</item>
+        <item>I spend less than 30 minutes a day working toward a life goal or ambition of mine</item>
+    </string-array>
+    <string-array name="Emotional_Questions">
+        <item>I have trouble remembering things</item>
+        <item>I worry a lot</item>
+        <item>I feel very angry inside</item>
+        <item>I have temper outbursts I can\'t control</item>
+        <item>When people criticize me, even in friendly, constructive way, I feel offended</item>
+        <item>I feel like I really can\'t trust anyone</item>
+        <item>I feel like other people don\'t understand me</item>
+        <item>I really don\'t feel good about myself</item>
+        <item>Generally I am not optimistic about my future</item>
+        <item>I have felt so bad that I thought of hurting myself</item>
+    </string-array>
+
+</resources>

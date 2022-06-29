@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        tools:ignore="UselessParent">
+
+        <TextView
+            android:id="@+id/question"
+            android:layout_width="220dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:padding="@dimen/normal_padding"
+            android:textColor="#000"
+            android:textSize="14sp" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:weightSum="5"
+            android:id="@+id/RadioG">
+
+            <RadioButton
+                android:id="@+id/Never"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"
+                android:theme="@style/RadioButtonStyle"
+                android:tag="1" />
+
+            <RadioButton
+                android:id="@+id/Almost_never"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"
+                android:theme="@style/RadioButtonStyle"
+                android:tag="2" />
+
+            <RadioButton
+                android:id="@+id/Some_of_the_time"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"
+                android:theme="@style/RadioButtonStyle"
+                android:tag="3" />
+
+            <RadioButton
+                android:id="@+id/Most_of_the_time"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"
+                android:theme="@style/RadioButtonStyle"
+                android:tag="4" />
+
+            <RadioButton
+                android:id="@+id/Almost_always"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"
+                android:theme="@style/RadioButtonStyle"
+                android:tag="5" />
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+</LinearLayout>

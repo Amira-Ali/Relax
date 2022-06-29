@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="random_imgs">
+        <item>@drawable/gradient_turquoise_light</item>
+        <item>@drawable/gradient_green_light</item>
+        <item>@drawable/gradient_green_dark</item>
+        <item>@drawable/gradient_turquoise_dark</item>
+    </integer-array>
+</resources>

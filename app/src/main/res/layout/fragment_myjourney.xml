@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.dashBoard">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/surveyDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="6dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/weaknessTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="6dp"
+        android:text="@string/my_weaknesses"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/stressFactors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:padding="6dp" />
+
+    <TextView
+        android:id="@+id/strengthTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="6dp"
+        android:text="@string/my_strength"
+        android:textStyle="bold"/>
+
+    <ListView
+        android:id="@+id/StrengthFactors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="48dp"
+        android:padding="6dp" />
+
+    <TextView
+        android:id="@+id/myLogins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="6dp"
+        android:text="@string/myLogins"
+        android:textStyle="bold"/>
+
+    <com.github.mikephil.charting.charts.BarChart
+        android:id="@+id/chart"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:paddingVertical="@dimen/fab_margin"/>
+
+    <TextView
+        android:id="@+id/statistic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="6dp"
+        android:text="@string/statistic"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/session_nm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="6dp"
+        android:text="@string/session_nm"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/spent_times"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="6dp"
+        android:text="@string/spent_times"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/last_session"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="6dp"
+        android:text="@string/last_session"
+        android:textStyle="bold"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/last_session_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="10dp"
+                android:text="@string/last_session_date"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/last_session_duration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="10dp"
+                android:layout_marginStart="100dp"
+                android:text="@string/last_session_duration"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/journaling"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="6dp"
+            android:text="@string/title_activity_journaling"
+            android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/journaling_nm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="10dp"
+                android:text="@string/journaling_nm"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/resentment_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="10dp"
+                android:layout_marginStart="100dp"
+                android:text="@string/resentment_list"
+                android:textStyle="bold"/>
+
+        <ListView
+            android:id="@+id/resentment_items"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:padding="6dp" />
+
+        <TextView
+            android:id="@+id/gratitude_list"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="10dp"
+            android:layout_marginStart="100dp"
+            android:text="@string/gratitude_list"
+            android:textStyle="bold"/>
+
+        <ListView
+            android:id="@+id/gratitude_items"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:padding="6dp" />
+
+        <TextView
+            android:id="@+id/notificationTimes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="6dp"
+            android:text="@string/notificationTimes"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/userRate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="6dp"
+            android:text="@string/userRate"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/userFeedback"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="10dp"
+            android:paddingVertical="6dp"
+            android:text="@string/userFeedback"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+</ScrollView>

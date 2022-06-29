@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/journaling"
+        android:icon="@drawable/ic_baseline_edit_note_24"
+        android:title="@string/title_activity_journaling"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/thoughts"
+        android:icon="@drawable/ic_baseline_history_edu_24"
+        android:title="@string/thoughts"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/settings"
+        android:icon="@drawable/ic_baseline_add_alert_24"
+        android:title="@string/time"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/feedback"
+        android:icon="@drawable/ic_feedback_24"
+        android:title="@string/feedback"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/logout"
+        android:icon="@drawable/ic_baseline_exit_to_app_24"
+        android:title="@string/logout"
+        app:showAsAction="never" />
+
+</menu>

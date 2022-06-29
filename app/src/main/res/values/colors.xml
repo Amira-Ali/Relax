@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="light_turquoise">#2ba6c8</color>
+    <color name="dark_blue">#052843</color>
+    <color name="dark_turquoise">#1A96B3</color>
+    <color name="light_red">#E91E63</color>
+    <color name="dark_red">#771435</color>
+    <color name="NoColor">@android:color/transparent</color>
+    <color name="light_lime">#CDDC39</color>
+    <color name="dark_lime">#8BC34A</color>
+    <color name="light_green">#8BC34A</color>
+    <color name="dark_green">#239B56</color>
+    <color name="view_back_color">#c7c7C7</color>
+</resources>

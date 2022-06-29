@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="1dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/chat_left_msg_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:orientation="horizontal"
+            tools:ignore="UseCompoundDrawables">
+
+            <ImageView
+                android:layout_width="64dp"
+                android:layout_height="52dp"
+                android:background="@drawable/robot"
+                android:contentDescription="@string/robot" />
+
+            <TextView
+                android:id="@+id/chat_left_msg_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="4dp"
+                android:background="@drawable/received_msg_shape"
+                android:padding="8dp"
+                android:textColor="#000000" />
+
+            <ImageView
+                android:id="@+id/imgView"
+                android:layout_width="350dp"
+                android:layout_height="350dp"
+                android:layout_gravity="center"
+                android:layout_margin="4dp"
+                android:padding="8dp"
+                android:adjustViewBounds="true"
+                android:visibility="gone"
+                android:contentDescription="@string/imageMsg" />
+
+            <LinearLayout
+                android:id="@+id/horizontalBtns"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:visibility="gone">
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/chat_right_msg_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/chat_right_msg_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_margin="4dp"
+            android:background="@drawable/sent_msg_shape"
+            android:padding="8dp"
+            android:textColor="#ffffff" />
+
+    </LinearLayout>
+
+</LinearLayout>

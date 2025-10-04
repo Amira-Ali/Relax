@@ -20,17 +20,16 @@ Chaquo Ltd | https://chaquo.com/
 - Abstractive Text Summarization: Cosine Similarity + TextRank
 
 #### Screenshots
-![plot] (https://github.com/Amira-Ali/Relax/blob/main/screenshots/Relax_breath.png)
-![alt text] (https://github.com/Amira-Ali/Relax/blob/main/screenshots/Relax_chat.png)
-![alt text] (https://github.com/Amira-Ali/Relax/blob/main/screenshots/Relax_food.png)
-https://github.com/Amira-Ali/Relax/blob/main/screenshots/Relax_home.png
-https://github.com/Amira-Ali/Relax/blob/main/screenshots/Relax_journaling.png
-https://github.com/Amira-Ali/Relax/blob/main/screenshots/Relax_results1.png
-https://github.com/Amira-Ali/Relax/blob/main/screenshots/Relax_results2.png
-https://github.com/Amira-Ali/Relax/blob/main/screenshots/Relax_sport.png
-https://github.com/Amira-Ali/Relax/blob/main/screenshots/Relax_survey.png
-https://github.com/Amira-Ali/Relax/blob/main/screenshots/Relax_user_insights.png
-
+![alt text](https://github.com/Amira-Ali/Relax/blob/main/screenshots/Relax_home.png)
+![alt text](https://github.com/Amira-Ali/Relax/blob/main/screenshots/Relax_chat.png)
+![alt text](https://github.com/Amira-Ali/Relax/blob/main/screenshots/Relax_survey.png)
+![alt text](https://github.com/Amira-Ali/Relax/blob/main/screenshots/Relax_breath.png)
+![alt text](https://github.com/Amira-Ali/Relax/blob/main/screenshots/Relax_food.png)
+![alt text](https://github.com/Amira-Ali/Relax/blob/main/screenshots/Relax_journaling.png)
+![alt text](https://github.com/Amira-Ali/Relax/blob/main/screenshots/Relax_sport.png)
+![alt text](https://github.com/Amira-Ali/Relax/blob/main/screenshots/Relax_user_insights.png)
+![alt text](https://github.com/Amira-Ali/Relax/blob/main/screenshots/Relax_results1.png)
+![alt text](https://github.com/Amira-Ali/Relax/blob/main/screenshots/Relax_results2.png)
 
 #### Full thesis 
 [Click to read -->](https://github.com/Amira-Ali/Relax/blob/main/MSc%20Thesis.pdf)

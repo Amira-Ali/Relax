@@ -20,6 +20,7 @@ Chaquo Ltd | https://chaquo.com/
 - Abstractive Text Summarization: Cosine Similarity + TextRank
 
 #### Screenshots
+![alt text](https://github.com/Amira-Ali/Relax/blob/main/screenshots/Relax_register.png)
 ![alt text](https://github.com/Amira-Ali/Relax/blob/main/screenshots/Relax_home.png)
 ![alt text](https://github.com/Amira-Ali/Relax/blob/main/screenshots/Relax_chat.png)
 ![alt text](https://github.com/Amira-Ali/Relax/blob/main/screenshots/Relax_survey.png)

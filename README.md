@@ -28,8 +28,6 @@ Chaquo Ltd | https://chaquo.com/
 ![alt text](https://github.com/Amira-Ali/Relax/blob/main/screenshots/Relax_journaling.png)
 ![alt text](https://github.com/Amira-Ali/Relax/blob/main/screenshots/Relax_sport.png)
 ![alt text](https://github.com/Amira-Ali/Relax/blob/main/screenshots/Relax_user_insights.png)
-![alt text](https://github.com/Amira-Ali/Relax/blob/main/screenshots/Relax_results1.png)
-![alt text](https://github.com/Amira-Ali/Relax/blob/main/screenshots/Relax_results2.png)
 
 #### Full thesis 
 [Click to read -->](https://github.com/Amira-Ali/Relax/blob/main/MSc%20Thesis.pdf)
